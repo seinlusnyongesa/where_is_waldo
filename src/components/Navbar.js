@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = ({ setPlayerPopup, isPlayerPopupOpen }) => {
   return (
-    <nav className="bg-slate-500">
+    <nav className="bg-slate-500 fixed w-full z-10">
       <div className="flex justify-around  items-center p-2">
         <h1 className="text-2xl">where's weldo?</h1>
         <h1 className="text-2xl">00:00:00</h1>
