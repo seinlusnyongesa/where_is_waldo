@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Game from "./components/Game";
 import Navbar from "./components/Navbar";
 import PlayersPopUp from "./components/PlayersPopUp";
 
@@ -11,6 +12,7 @@ function App() {
         isPlayerPopupOpen={isPlayerPopupOpen}
       />
       {isPlayerPopupOpen ? <PlayersPopUp /> : ""}
+      <Game />
     </>
   );
 }
