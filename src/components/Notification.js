@@ -9,14 +9,14 @@ const Notification = ({ showNotification, setShowNotification }) => {
   function NotificationWithStyles() {
     if (showNotification.charFound) {
       return (
-        <div className="fixed top-14 left-[50%] bg-green-500 p-1 text-slate-200 text-xl">
-          you found waldo
+        <div className="fixed top-14 left-[50%] bg-green-500 p-1 text-slate-200 text-xl z-30">
+          you found {showNotification.targetName}
         </div>
       );
     }
     return (
-      <div className="fixed top-14 left-[50%] bg-red-500 p-1 text-slate-100 text-xl">
-        that is not waldo
+      <div className="fixed top-14 left-[50%] bg-red-500 p-1 text-slate-100 text-xl z-30 ">
+        that is not {showNotification.targetName}
       </div>
     );
   }
