@@ -1,3 +1,12 @@
+# where is weldo
+this project was built as part of excercise in the TOP curriculum.
+It is a game where you have to find a character named weldo and his friend monk in a concentrated place with alot of people doing different activities
+
+## live preview
+[where is weldo](https://63922bc0bdf45d2648237aff--magical-unicorn-c91740.netlify.app/)
+
+- project still under development.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
